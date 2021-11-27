@@ -1,21 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <!--- color: #787678; and ---> 
+    <!--- VERSION 0.0.1 and ---> 
     <style>
+        div{
+            color:#7d7d7d;
+            background-color: #EBEBEB;
+            padding: 10px;
+        }
         body {
             width:500px;
             position:relative;
             margin:auto;
-        }
-        .contentbox1{
-            color:#7d7d7d;
-            background-color: #EBEBEB;
-            padding: 10px;
         }
         .contentboxcontrast{
             color:#919191;
@@ -25,18 +26,18 @@
     </style>
 </head>
 <body class="contentboxcontrast">
-    <header class="contentbox1">header</header>
-    <nav class="contentbox1">
+    <div>header</div>
+    <div>
         nav
-        <section class="contentbox1">
+        <div>
             section
             <br>
-            <article>
+            <div class="contentboxcontrast">
                 article
-            </article>
-        </section>
-        <aside class="contentbox1">aside</aside>
-    </nav>
+            </div>
+        </div>
+        <div>aside</div>
+    </div>
 
 </body>
 </html>
