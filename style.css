@@ -1,5 +1,15 @@
-.default {
-    color: #787678;
-    color: #7d7d7d;
-    height: 100px
+div{
+    color:#7d7d7d;
+    background-color: #EBEBEB;
+    padding: 10px;
+}
+body {
+    width:400px;
+    position:relative;
+    margin:auto;
+}
+.contentboxcontrast{
+    color:#919191;
+    background-color: #303030;
+    padding: 10px;
 }
