@@ -1,7 +1,7 @@
 div{
     color:#7d7d7d;
     background-color: #EBEBEB;
-    padding: 20px;
+    padding: 8px;
     margin: 10px;
 }
 body {
@@ -10,18 +10,22 @@ body {
     position:relative;
     margin:auto;
 }
+.cleardiv{
+    padding: 0px;
+    margin: 0px;
+}
 .contentboxcontrast{
     color:#919191;
     background-color: #303030;
     padding: 10px;
 }
 .left{
-    width:200px;
+    width: 54%;
     float: left;
 }
 .right{
-    width:200px;
-    float: left;
+    width:max-content;
+    float: right;
 }
 .centertext{
     text-align: center;
