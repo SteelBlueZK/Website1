@@ -2,9 +2,7 @@ div{
     color:#7d7d7d;
     background-color: #EBEBEB;
     padding: 20px;
-    border-style:solid;
-    border-color: lightgray;
-    margin:4px
+    margin: 10px;
 }
 body {
     align-items: center;
