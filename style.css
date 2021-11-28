@@ -1,10 +1,12 @@
 div{
     color:#7d7d7d;
     background-color: #EBEBEB;
-    padding: 10px;
+    padding: 20px;
+    border-style:inset;
+    border: 10px;
 }
 body {
-    width:400px;
+    width:600px;
     position:relative;
     margin:auto;
 }
@@ -12,4 +14,14 @@ body {
     color:#919191;
     background-color: #303030;
     padding: 10px;
+}
+.left{
+    width:200px;
+    margin-left: 6px;
+    float: left;
+}
+.right{
+    width:200px;
+    margin-right: 6px;
+    float: left;
 }
