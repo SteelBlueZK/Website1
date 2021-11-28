@@ -2,10 +2,12 @@ div{
     color:#7d7d7d;
     background-color: #EBEBEB;
     padding: 20px;
-    border-style:inset;
-    border: 10px;
+    border-style:solid;
+    border-color: lightgray;
+    margin:4px
 }
 body {
+    align-items: center;
     width:600px;
     position:relative;
     margin:auto;
@@ -24,4 +26,7 @@ body {
     width:200px;
     margin-right: 6px;
     float: left;
+}
+.centertext{
+    text-align: center;
 }
