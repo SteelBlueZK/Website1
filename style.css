@@ -1,32 +1,42 @@
 div{
-    color:#7d7d7d;
-    background-color: #EBEBEB;
     padding: 8px;
-    margin: 10px;
+    margin: 10px 0px 10px;
 }
 body {
     align-items: center;
-    width:600px;
+    text-align: center;
+    width:680px;
     position:relative;
     margin:auto;
 }
-.cleardiv{
-    padding: 0px;
-    margin: 0px;
+footer{
+    padding: 8px 8px 30px;
+
 }
-.contentboxcontrast{
+article{
+    margin:10px 0px 8px;
+}
+.cleardiv{
+    padding: 5px;
+    margin: 5px;
+}
+.light-theme{
+    color:#7d7d7d;
+    background-color: #EBEBEB;
+}
+.dark-theme{
     color:#919191;
     background-color: #303030;
-    padding: 10px;
 }
-.left{
-    width: 54%;
-    float: left;
+#articles{
+    width: 400px;
 }
-.right{
-    width:max-content;
-    float: right;
+#sidebar{
+    width:200px
 }
-.centertext{
-    text-align: center;
+#MainContent{
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content:space-between;
 }
